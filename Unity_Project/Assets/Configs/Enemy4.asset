@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49271271f22d8a54eb16854cf3ab7eac, type: 3}
+  m_Name: Enemy4
+  m_EditorClassIdentifier: 
+  allUnitConfigList:
+  - HealthPoint: 100
+    attack: 10
+    attackSpeed: 0.4
+    attackRange: 18
+    MovementSpeed: 5
+    ePosition: 0
+  - HealthPoint: 100
+    attack: 4
+    attackSpeed: 0.3
+    attackRange: 13
+    MovementSpeed: 6
+    ePosition: 8
+  - HealthPoint: 100
+    attack: 5
+    attackSpeed: 0.2
+    attackRange: 14
+    MovementSpeed: 4
+    ePosition: 7
+  - HealthPoint: 100
+    attack: 6
+    attackSpeed: 1
+    attackRange: 12
+    MovementSpeed: 10
+    ePosition: 5
+  - HealthPoint: 100
+    attack: 8
+    attackSpeed: 0.1
+    attackRange: 9
+    MovementSpeed: 12
+    ePosition: 6

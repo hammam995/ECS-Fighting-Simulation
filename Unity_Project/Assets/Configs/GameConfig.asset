@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d141cf9d7eed04d8d299bb1d3d56a3, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  teamConfigs:
+  - {fileID: 11400000, guid: 44f191c796e69e8439c01e69cd813176, type: 2}
+  - {fileID: 11400000, guid: 5d813ade1f6964a4e928332582fccac4, type: 2}
+  - {fileID: 11400000, guid: b142bd0a5737e2a4284d40e70eb53788, type: 2}
+  - {fileID: 11400000, guid: 28df91781ca019e45be9a812f8aef812, type: 2}
+  - {fileID: 11400000, guid: 8b7f8a507b8578b4491c2a6a8ba180e3, type: 2}
+  enemyIndex: 4
+  playerPrefab: {fileID: 6381800046350568785, guid: 06f706bd098b04037a94c2547062f253,
+    type: 3}
+  enemyPrefab: {fileID: 6381800046350568785, guid: 900541e0ce41e3d4981ca5ea4ff23b43,
+    type: 3}
+  healthTextPrefab: {fileID: 4115872907743040286, guid: fc78849c819628745884377b24026486,
+    type: 3}
+  teamButton: {fileID: 8102151249772911554, guid: 5de5685ed4f1e5047ad2889f9f382abf,
+    type: 3}
